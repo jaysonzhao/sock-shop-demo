@@ -29,7 +29,7 @@ Unless mentioned, each image is cross-compiled in s390x, amd64, arm64, and ppc64
 
 There are three diferent kustomizations: fyre, multi, multi-hpa. multi-hpa is a HoriztonalPodAutoScaler version where the front-end autoscales.
 
-*fyre* 
+*haozhao* 
 
 To deploy to fyre, use the following:
 
@@ -43,13 +43,13 @@ password=
 2. Build sock shop for fyre:
 
 ```
-❯ kustomize build manifests/overlays/fyre | oc apply -f - 
+❯ kustomize build manifests/overlays/haozhao | oc apply -f - 
 ```
 
 3. Destroy sock shop for fyre:
 
 ```
-❯ kustomize build manifests/overlays/fyre | oc delete -f - 
+❯ kustomize build manifests/overlays/haozhao | oc delete -f - 
 ```
 
 *multiarch compute*
