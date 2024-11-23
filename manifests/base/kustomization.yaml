@@ -19,8 +19,7 @@ resources:
   - 04-carts-db-svc.yaml
   - 05-catalogue-dep.yaml
   - 06-catalogue-svc.yaml
-  - 07-catalogue-db-dep.yaml
-  - 08-catalogue-db-svc.yaml
+  - 07-catalogue-db-vm.yaml
   - 09-front-end-dep.yaml
   - 10-front-end-svc.yaml
   - 11-orders-dep.yaml
